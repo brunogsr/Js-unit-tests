@@ -68,5 +68,6 @@ const getCharacter = (name) => {
 
   return undefined;
 };
-
+const aryaTest = getCharacter('Arya');
+console.log(aryaTest.phrases);
 module.exports = getCharacter;
