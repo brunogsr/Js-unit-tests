@@ -41,5 +41,8 @@ const productDetails = (firstProduct, secondProduct) => [
     },
   },
 ];
-
+let testeresult = productDetails('sabonete', 'qualquercoisa');
+console.log(testeresult[0]);
+let tipo = typeof testeresult[0]
+console.log(tipo)
 module.exports = productDetails;
